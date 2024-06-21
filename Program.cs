@@ -69,6 +69,7 @@ internal class Program
         while(!ValidIndex)
         {
           _idx = GetResponse($"Enter the index you want to change(0 to {itineraries.Count()-1}): ");
+          ValidIndex =int.TryParse(_idx, out idx) && idx >=0 && idx <= (itineraries.Count()-1); 
 
         };
         Console.WriteLine($" You are about to change the itinerary of {itineraries[idx].PassengerName}");
