@@ -65,7 +65,7 @@ internal class Program
         string _idx = GetResponse($"Enter the index you want to change(0 to {itineraries.Count()-1}): ");
         int idx = 0;
         int.TryParse(_idx, out idx);
-        bool ValidIndex =int.TryParse(_idx, out idx) && idx >=0 && idx <= itineraries.Count()-1; 
+        bool ValidIndex =int.TryParse(_idx, out idx) && idx >=0 && idx <= (itineraries.Count()-1); 
         while(!ValidIndex)
         {
           _idx = GetResponse($"Enter the index you want to change(0 to {itineraries.Count()-1}): ");
