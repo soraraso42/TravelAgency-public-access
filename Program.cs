@@ -94,7 +94,7 @@ internal class Program
     break;
     case "4":
     // exit
-    Console.WriteLine("Thanks for using. Bye!");
+    Console.WriteLine("Thank you for using Algonquin College Student Travel Agency!");
     return;
     default:
     Console.WriteLine("Invalid input.");
