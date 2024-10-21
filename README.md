@@ -4,7 +4,10 @@
 A console-based application built with C# that allows users to manage travel itineraries, including adding, viewing, and updating trip details. The system automatically calculates ticket costs and applies change fees where applicable.
 
 This project provides a demonstration of Object-Oriented Programming (OOP) principles, such as encapsulation, abstraction, and error handling.
+
+---
 <img width="720" src="https://github.com/user-attachments/assets/de6aa7f0-9140-48c5-9903-140df86238a0">
+---
 
 ## Tech Stack
 - **C#**: Core language used to build the console interface and implement functionality.
