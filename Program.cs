@@ -18,7 +18,7 @@ internal class Program
       Console.WriteLine("4. Exit");
       Console.Write("\nEnter a choice: ");
       string? choice = Console.ReadLine();
-
+ choice.ToUpper();
       
   //  switch different cases
   switch (choice)
